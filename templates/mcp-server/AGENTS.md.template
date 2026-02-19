@@ -1,0 +1,66 @@
+# AGENTS.md — {{PROJECT_NAME}}
+
+## Overview
+{{PROJECT_DESCRIPTION}}
+
+## Architecture
+
+```
+{{PROJECT_NAME}}/
+├── src/
+│   ├── main.rs            — MCP server entry point (stdio transport)
+│   ├── lib.rs             — Public library API
+│   ├── config.rs          — Config loading (TOML)
+│   ├── error.rs           — Error types (thiserror)
+│   ├── mcp/
+│   │   ├── protocol.rs    — JSON-RPC types, MCP protocol structs
+│   │   └── server.rs      — McpServer (stdio line-by-line loop)
+│   └── tools/
+│       ├── registry.rs    — ToolRegistry (dispatches calls)
+│       └── health_check.rs — health_check tool
+└── tests/
+```
+
+## MCP Server
+
+Runs as an MCP server over stdio. Speaks MCP 2024-11-05 protocol.
+
+```bash
+{{PROJECT_NAME}} --stdio
+```
+
+## Tools
+
+| Tool | Description | Required Args |
+|------|-------------|---------------|
+| `health_check` | Server health and version info | none |
+
+## Configuration
+
+`~/.config/{{PROJECT_NAME}}/config.toml`
+
+## Claude Code Integration
+
+```json
+{
+  "mcpServers": {
+    "{{PROJECT_NAME}}": {
+      "command": "/home/kerolos/.local/bin/{{PROJECT_NAME}}",
+      "args": ["--stdio"]
+    }
+  }
+}
+```
+
+## Development
+
+```bash
+cargo fmt
+cargo clippy -- -D warnings
+cargo test
+cargo build --release
+```
+
+## th33mptygh05t Standards
+- Commits: `feat({{PROJECT_NAME}}): description`
+- Follow org framework: github.com/th33mptygh05t/.github/AGENTS.md

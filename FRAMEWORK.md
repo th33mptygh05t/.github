@@ -148,6 +148,7 @@ All projects deploy to **k3s on Contabo HQ**.
 - No root containers — ever
 - Egress firewall — containers only reach what they need
 - Self-monitor — agents watch each other
+- **Laptop baseline:** See [LAPTOP_SECURITY.md](LAPTOP_SECURITY.md) for workstation security requirements
 
 ### Incident Response
 1. **Isolate** — take affected service offline

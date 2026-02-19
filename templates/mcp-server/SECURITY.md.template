@@ -1,0 +1,19 @@
+# Security Policy — {{PROJECT_NAME}}
+
+## Reporting Vulnerabilities
+Report security issues privately via GitHub Security Advisories.
+
+## Security Measures
+- No credentials stored in code or repository
+- Config file permissions: 600
+- Secrets resolved from config file or environment variables
+- All external input validated
+- Dependencies pinned and audited
+- Docker container runs as non-root
+
+## Credential Resolution
+Config file (`~/.config/{{PROJECT_NAME}}/config.toml`) → Environment variables
+
+## Logging
+All logs go to stderr. stdout is reserved for MCP protocol.
+Security-relevant events are logged at WARN or ERROR level.

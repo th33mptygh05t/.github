@@ -22,5 +22,3 @@ We don't reinvent the wheel — we wrap, extend, and orchestrate.
 **Stack:** Rust · Next.js · TypeScript · k3s · Helm · PostgreSQL · Claude
 
 ---
-
-*Built from Cairo 🇪🇬*

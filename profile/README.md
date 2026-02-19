@@ -4,13 +4,13 @@
 
 We build **security tools**, **DevOps automation**, and **AI agents** — all in Rust, deployed on bare metal.
 
-### What We Ship
+### The Squad
 
-**Gitty** — MCP server for Git & GitHub operations
-**Cloudmind** — AWS management agent
-**Forgemaster** — Infrastructure provisioning agent
+**Gitty** — Git & GitHub MCP server
+**Raikage** — AWS management agent
+**Yamato** — Infrastructure provisioning agent
+**Ino** — Slack communication agent
 **Netspectre** — Network traffic analyzer
-**Spectre-Slack** — Slack communication agent
 **Ghostdeck** — Unified dashboard with chat, reports & metrics
 **Panam** — Jarvis-like orchestrator & personal organizer
 **Bulwark** — Adaptive cybersecurity defense platform

@@ -191,12 +191,15 @@ type(scope): description
 th33mptygh05t/
 ├── .github/              # Framework, standards
 ├── gitty/                # 🦀 Git/GitHub MCP (SHIPPED ✅)
-├── cloudmind/            # ☁️ AWS management (Rust)
-├── forgemaster/          # 🔧 Provisioning (Rust)
-├── spectre-mail/         # 📧 Email agent (Rust)
-├── spectre-whatsapp/     # 💬 WhatsApp agent (Rust)
-├── spectre-slack/        # 🔔 Slack agent (Rust)
+├── raikage/              # ⚡ AWS management (Rust)
+├── yamato/               # 🪵 Provisioning (Rust)
+├── ino/                  # 🧠 Slack communication (Rust)
+├── netspectre/           # 👁️ Traffic analyzer (Rust)
 ├── ghostdeck/            # 🖥️ Dashboard (Next.js + Rust API)
 ├── panam/                # 🧠 Orchestrator + organizer (Rust)
-└── bulwark/              # 🛡️ Security platform (future)
+├── phantom/              # 👤 Private project
+├── bulwark/              # 🛡️ Security platform (future)
+├── spectre-mail/         # 📧 Email agent — FUTURE
+├── spectre-whatsapp/     # 💬 WhatsApp agent — FUTURE
+└── spectre-irc/          # 💀 IRC agent — FUTURE
 ```

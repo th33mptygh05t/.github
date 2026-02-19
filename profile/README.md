@@ -9,7 +9,8 @@ We build **security tools**, **DevOps automation**, and **AI agents** — all in
 **Gitty** — MCP server for Git & GitHub operations
 **Cloudmind** — AWS management agent
 **Forgemaster** — Infrastructure provisioning agent
-**Spectre** — Communication agents (email, Slack, WhatsApp)
+**Netspectre** — Network traffic analyzer
+**Spectre-Slack** — Slack communication agent
 **Ghostdeck** — Unified dashboard with chat, reports & metrics
 **Panam** — Jarvis-like orchestrator & personal organizer
 **Bulwark** — Adaptive cybersecurity defense platform
